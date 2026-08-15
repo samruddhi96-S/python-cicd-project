@@ -29,8 +29,9 @@ python-cicd-project/
 └── .github/
     └── workflows/
         └── python-ci.yml
+**
+# ## How CI pipline works**
 
-⚙️ How the CI Pipeline Works
 Developer pushes code
         ↓
 GitHub Repository
@@ -52,7 +53,7 @@ PASS           FAIL
 
 This project uses pytest for automated testing.
 
-🔄 CI Workflow
+# # **🔄 CI Workflow**
 
 The GitHub Actions workflow performs the following steps:
 
@@ -63,8 +64,8 @@ The GitHub Actions workflow performs the following steps:
 5.Uses pip dependency caching.
 6.Runs automated tests using pytest.
 7.Reports whether the CI pipeline passed or failed. 
-
-📚 What I Learned
+# **
+📚 What I Learned**
 
 Through this project, I learned:
 
@@ -81,7 +82,8 @@ Through this project, I learned:
 *Debugging failed CI pipelines
 *Writing project documentation
 
-🚀 Future Improvements
+**# 🚀 Future Improvements**
+
 1.Add code linting
 2.Add test coverage
 3.Add more unit tests
@@ -89,7 +91,7 @@ Through this project, I learned:
 5.Implement Continuous Delivery
 6.Deploy the application automatically
 
-👩‍💻 Author
+**# 👩‍💻 Author**
 
 Samruddhi Hankare
 
