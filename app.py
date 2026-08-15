@@ -6,4 +6,7 @@ def multiply(a, b):
     return a * b
 
 
-print("CI/CD Mini Project Started")
+if __name__ == "__main__":
+    print("Python CI/CD Pipeline is running successfully!")
+    print("2 + 3 =", add(2, 3))
+    print("2 × 3 =", multiply(2, 3))
